@@ -36,7 +36,13 @@
 15. == is loose equality, compares values after type conversion if needed , === is strict equality, compares both type and value.
    
 
+17. The function modifyArray will return a new array where each element from the original array [1, 2, 3] is doubled by the doSomething callback function. In the for loop it passes each element in the array to doSomething function, which returns the value times two. 
 
+19. 1
+    4
+    3
+    2
+    
 
 
 
